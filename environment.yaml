@@ -1,0 +1,23 @@
+name: pl_logger_contrib
+
+channels:
+  - conda-forge
+  - comet_ml
+  - defaults
+
+dependencies:
+
+  - pytorch-lightning>=1.0
+  - pytorch
+  - matplotlib
+
+  # logger
+  - comet_ml
+  - mlflow
+  - neptune-client
+  - tensorboard
+  - wandb
+
+
+  # jupyter loadable environment
+  - ipykernel
